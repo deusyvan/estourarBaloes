@@ -15,5 +15,5 @@ function addBola() {
 }
 
 function estourar(elemento) {
-	
+	document.body.removeChild(elemento);
 }
