@@ -8,4 +8,8 @@ function addBola() {
 	
 	bola.setAttribute("style", "left:"+p1+"px;top:"+p2+"px;");
 	//<div style="left:522px; top:4587px"></div>
+	
+	bola.setAttribute("onclick", "estourar()");
+	
+	
 }
