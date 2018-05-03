@@ -11,5 +11,5 @@ function addBola() {
 	
 	bola.setAttribute("onclick", "estourar()");
 	
-	
+	document.body.appendChild(bola);
 }
