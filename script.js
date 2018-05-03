@@ -17,3 +17,7 @@ function addBola() {
 function estourar(elemento) {
 	document.body.removeChild(elemento);
 }
+
+function iniciar() {
+	setInterval(addBola, 1000);
+}
